@@ -126,14 +126,14 @@ body {
 
 @media (max-width: 480px) {
     .container {
-        padding:10px;
-           }
-}
+          padding: 10px;
+    }
 
-.right-side {
-    padding:10px;
-}
+    .right-side {
+        padding: 10px;
 
-.buttons button {
-    width:100%
+    }
+    .buttons button {
+        width: 100%;
+    }
 }
