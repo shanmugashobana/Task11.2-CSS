@@ -22,7 +22,7 @@ body {
 .form {
     display:flex;
     flex-wrap:wrap;
-    width:90%;
+    width:80%;
     max-width:900px;
     min-height:500px;
     background-color: white;
@@ -36,6 +36,9 @@ body {
     width:100%;
     padding: 10px 20px 0;
     text-align: center;
+}
+.form h1 {
+    font-size: clamp(1.4em, 5vw, 2rem);
 }
 
 .left-side {
@@ -119,4 +122,18 @@ body {
 .star {
     color:red;
     margin-right: 8px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding:10px;
+           }
+}
+
+.right-side {
+    padding:10px;
+}
+
+.buttons button {
+    width:100%
 }
